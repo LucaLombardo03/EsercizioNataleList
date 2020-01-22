@@ -35,7 +35,7 @@ namespace EsercizioNataleList
         {
             using (StreamReader rfile = new StreamReader(fileinvalido))
             {
-                string sline;
+                string sline; 
                 while ((sline = rfile.ReadLine()) != null)
                 {
                     int found = 0;
